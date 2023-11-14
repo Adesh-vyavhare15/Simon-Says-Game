@@ -1,0 +1,56 @@
+body{
+    background-image: url("simonback.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-shadow: 5px 5px 30px rgb(0, 247, 255);
+    animation-name: font1Animation;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-duration: 3s;
+    
+}
+@keyframes font1Animation{
+    from{
+        font-size: 30px;
+    }
+    to{
+        font-size: 40px;
+        
+    }
+}
+.yellow{
+    background-color: rgb(255, 255, 99);
+    box-shadow: 5px 5px 15px rgb(217, 255, 0);
+}
+.red{
+    background-color: rgb(253, 90, 90);
+    box-shadow:5px 5px 15px rgb(255, 0, 55);
+}
+.pink{
+    background-color: rgb(245, 139, 157);
+    box-shadow:5px 5px 15px rgb(255, 0, 221);
+}
+.blue{
+    background-color: rgb(161, 161, 255);
+    box-shadow:5px 5px 15px rgb(0, 174, 255);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(111, 247, 111);
+}
